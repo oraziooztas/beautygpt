@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = "https://beautygpt-api.onrender.com";
 
 interface Product {
   id: number;
